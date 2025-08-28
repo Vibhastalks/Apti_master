@@ -1,0 +1,120 @@
+/* Basic styling for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+/* Main container for the login form */
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Logo and title section */
+.logo-title h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #660f72;
+}
+
+.logo-title .tagline {
+    font-size: 1em;
+    color: #666;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* Form input styling */
+.login-form .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.login-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.login-form .password-wrapper {
+    position: relative;
+}
+
+.login-form .password-wrapper .toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+    font-size: 0.9em;
+    color: #007bff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Extra options like "Remember Me" and "Forgot Password" */
+.extra-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+.extra-options .forgot-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.extra-options .forgot-link:hover {
+    text-decoration: underline;
+}
+
+/* Login button styling */
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+/* "Register New Account" link */
+.register-link {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration
