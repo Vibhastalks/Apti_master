@@ -1,0 +1,52 @@
+body {                      /* Base Styles */
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+
+header h1 {                 /* Header Styles */
+    font-size: 2.8rem;
+    color: #2c3e50;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    font-weight: 400;
+}
+
+
+.card {                     /* Card Styles */
+    border: none;
+    border-radius: 0.75rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+
+
+.topic-card .card-title {       /* Topic Card Specific Styles */
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+
+footer {                        /* Footer Styles */
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e0e0e0;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
